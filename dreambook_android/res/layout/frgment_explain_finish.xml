@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 上半部 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@color/explain_finish_upperLayout_bgColor" >
+
+        <!-- 手机 -->
+
+        <RelativeLayout
+            android:layout_width="@dimen/explain_phone_width"
+            android:layout_height="@dimen/explain_phone_height"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_explain_phone" >
+
+            <!-- 手机屏幕 -->
+
+            <RelativeLayout
+                android:layout_width="@dimen/explain_phone_screen_width"
+                android:layout_height="@dimen/explain_phone_screen_height"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/explain_phone_screen_marginTop"
+                android:background="@drawable/shape_phone_screen_layout_bg"
+                android:padding="@dimen/explain_phone_padding" >
+
+                <!-- 网格 -->
+
+                <RelativeLayout
+                    android:layout_width="@dimen/explain_phone_screen_width"
+                    android:layout_height="match_parent"
+                    android:background="@color/explain_phoneScreen_bgColor" />
+
+                <!-- 触点 -->
+
+                <ImageView
+                    android:id="@+id/touch_point_imageView"
+                    android:layout_width="@dimen/explain_touchPoint_size"
+                    android:layout_height="@dimen/explain_touchPoint_size"
+                    android:background="@drawable/ic_explain_touch_point"
+                    android:visibility="invisible" />
+
+                <!-- 手指 -->
+
+                <ImageView
+                    android:id="@+id/hand_imageView"
+                    android:layout_width="@dimen/explain_hand_size"
+                    android:layout_height="@dimen/explain_hand_size"
+                    android:background="@drawable/ic_explain_hand"
+                    android:visibility="invisible" />
+
+                <!-- logo -->
+                <ImageView
+                    android:id="@+id/finishExplain_logo"
+                    android:layout_width="@dimen/explain_finishLogo_size"
+                    android:layout_height="@dimen/explain_finishLogo_size"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_explain_finish_logo" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!-- 下半部 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/explain_finish_lowerLayout_bgColor"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="@dimen/explain_text_width"
+            android:layout_height="@dimen/explain_text_height"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_explain_finish_text" />
+
+        <ImageButton
+            android:id="@+id/gotoShelf_imageButton"
+            android:layout_width="@dimen/explain_gotoShelfButton_width"
+            android:layout_height="@dimen/explain_gotoShelfButton_height"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/selector_explain_goto_shelf_button" />
+    </LinearLayout>
+
+</LinearLayout>

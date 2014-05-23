@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bookShelf_mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <!-- title bar begin -->
+
+    <RelativeLayout
+        android:id="@+id/titlebar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/mainColor" >
+
+        <!-- 书院 -->
+
+        <TextView
+            android:id="@+id/public_bookstore_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center|left"
+            android:text="@string/public_bookstore"
+            android:textColor="@drawable/book_shelf_selector_botton"
+            android:textSize="18sp" />
+
+        <!-- 我的书架 -->
+
+        <TextView
+            android:id="@+id/bookShelf_titleText_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/my_bookshelf"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/title_layout_title_TextView_textSize" />
+
+        <!-- 设置 -->
+
+        <TextView
+            android:id="@+id/optionButton_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center|right"
+            android:text="@string/option"
+            android:textColor="@drawable/book_shelf_selector_botton"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    <!-- tools bar end -->
+
+
+    <!-- 中间GridView和搜索控件 begin -->
+
+    <FrameLayout
+        android:id="@+id/content_parent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titlebar_layout" >
+
+        <!-- 书架布局, 包括搜索视图+网格视图 -->
+
+        <ScrollView
+            android:id="@+id/book_shelf_scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <!-- 搜索按钮 -->
+
+                <cn.retech.custom_control.ShelfSearchButtonLayout
+                    android:id="@+id/search_button"
+                    android:layout_width="270dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_marginTop="15dp" />
+
+                <!-- 网格视图 -->
+
+                <cn.retech.custom_control.DragGridLayout
+                    android:id="@+id/bookshelf_gridLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:minHeight="400dp" />
+            </LinearLayout>
+        </ScrollView>
+
+        <!-- 打开文件夹时的阻隔层 -->
+
+        <LinearLayout
+            android:id="@+id/middle_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.7"
+            android:background="@android:color/black"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+        </LinearLayout>
+    </FrameLayout>
+    <!-- 中间GridView和搜索控件 end -->
+
+
+    <!-- 搜索结果层 -->
+
+    <LinearLayout
+        android:id="@+id/search_result_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <!-- 文件夹内容视图 -->
+
+    <LinearLayout
+        android:id="@+id/folder_layout_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <!-- 文件夹名称 -->
+
+        <RelativeLayout
+            android:id="@+id/folderLine_middle"
+            android:layout_width="match_parent"
+            android:layout_height="35dp" >
+
+            <ImageView
+                android:id="@+id/folderLine_left"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true" />
+
+            <ImageView
+                android:id="@+id/folderLine_right"
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true" />
+
+            <cn.retech.custom_control.FolderNameLayout
+                android:id="@+id/folderName"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <!-- 文件夹内容 -->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:background="@color/white"
+            android:scrollbars="none" >
+
+            <cn.retech.custom_control.AutoColumnGridLayout
+                android:id="@+id/folder_content_GridLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:minHeight="330dp" >
+            </cn.retech.custom_control.AutoColumnGridLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <!-- 删除图标 -->
+
+    <ImageView
+        android:id="@+id/delete_imageView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_delete"
+        android:visibility="invisible" />
+
+</RelativeLayout>

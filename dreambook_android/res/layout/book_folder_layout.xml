@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="@dimen/book_folder_width"
+        android:layout_height="@dimen/book_folder_height"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <cn.retech.custom_control.MyGridLayout
+            android:id="@+id/book_folder_gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/book_image_height"
+            android:layout_marginTop="6dp"
+            android:animateLayoutChanges="true"
+            android:background="@drawable/bg_folder"
+            android:paddingLeft="8dp"
+            android:paddingTop="18dp" />
+
+        <TextView
+            android:id="@+id/view_cell_bookname_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/book_folder_gridLayout"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:maxEms="8"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/book_name_text_size" />
+
+        <TextView
+            android:id="@+id/book_number_textView"
+            android:layout_width="@dimen/bookNumberTextView_width"
+            android:layout_height="@dimen/bookNumberTextView_height"
+            android:background="@drawable/bg_book_number"
+            android:gravity="center"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/book_number_text_size"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <cn.retech.custom_control.GifMovieView
+        android:id="@+id/downloading_view"
+        android:layout_width="80dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/cellWhite"
+        android:layout_width="@dimen/book_folder_width"
+        android:layout_height="@dimen/book_folder_height"
+        android:background="@color/white"
+        android:visibility="invisible" />
+
+</FrameLayout>

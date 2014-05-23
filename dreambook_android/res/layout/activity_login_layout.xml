@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login_layout" >
+
+    <!-- 登录标题 -->
+
+    <ImageView
+        android:id="@+id/login_title_textView"
+        android:layout_width="@dimen/login_title_width"
+        android:layout_height="@dimen/login_title_height"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="@dimen/login_title_marginTop"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_login_title" />
+
+    <!-- 用户名输入框 -->
+
+    <EditText
+        android:id="@+id/user_name_editText"
+        android:layout_width="@dimen/login_editText_width"
+        android:layout_height="@dimen/login_editText_height"
+        android:layout_below="@id/login_title_textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bg_login_user_name"
+        android:gravity="left|center_vertical"
+        android:hint="请输入用户名"
+        android:paddingLeft="@dimen/login_editText_paddingLeft"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="@dimen/login_editText_textSize" />
+
+    <!-- 密码输入框 -->
+
+    <EditText
+        android:id="@+id/password_editText"
+        android:layout_width="@dimen/login_editText_width"
+        android:layout_height="@dimen/login_editText_height"
+        android:layout_below="@id/user_name_editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bg_login_password"
+        android:gravity="left|center_vertical"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:paddingLeft="@dimen/login_editText_paddingLeft"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="@dimen/login_editText_textSize" />
+
+    <!-- 登录按钮 -->
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="@dimen/login_editText_width"
+        android:layout_height="@dimen/login_editText_height"
+        android:layout_below="@id/password_editText"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/selector_login_button_bg"
+        android:textColor="@android:color/white" />
+
+    <!-- 下载进度、下载提示 -->
+
+    <LinearLayout
+        android:id="@+id/progressLayout_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/login_downlaodError_size"
+        android:layout_below="@id/password_editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:animateLayoutChanges="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/login_download_progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="@dimen/login_progressBar_width"
+            android:layout_height="5dp"
+            android:layout_marginLeft="@dimen/login_downlaodError_size"
+            android:layout_marginRight="10dp"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/shape_progress_bar_style" />
+
+        <ImageButton
+            android:id="@+id/login_downloadError_imageButton"
+            android:layout_width="@dimen/login_downlaodError_size"
+            android:layout_height="@dimen/login_downlaodError_size"
+            android:background="@drawable/selector_login_downlaod_error"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/login_downloadMessage_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressLayout_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/downloading"
+        android:textColor="@color/white"
+        android:textSize="@dimen/login_downlaodMessage_textSize"
+        android:visibility="gone" />
+
+</RelativeLayout>

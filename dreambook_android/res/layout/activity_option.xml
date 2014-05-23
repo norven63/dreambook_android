@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/option_layout_bgColor" >
+
+    <!-- 导航栏 -->
+
+    <RelativeLayout
+        android:id="@+id/option_titleBar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/option_titleBar_height"
+        android:layout_alignParentTop="true"
+        android:background="@color/mainColor" >
+
+        <ImageView
+            android:id="@+id/back_icon_ImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:gravity="left|center_vertical"
+            android:src="@drawable/ic_quit" />
+
+        <Button
+            android:id="@+id/back_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/back_icon_ImageView"
+            android:background="@null"
+            android:text="取消"
+            android:textColor="@drawable/book_shelf_selector_botton"
+            android:textSize="@dimen/title_layout_back_Button_textSize" />
+
+        <TextView
+            android:id="@+id/optionTitle_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="设置"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/title_layout_title_TextView_textSize" />
+    </RelativeLayout>
+
+    <!-- Logo图 -->
+
+    <RelativeLayout
+        android:id="@+id/logo_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/option_logo_layout_height"
+        android:layout_below="@id/option_titleBar_layout" >
+
+        <ImageView
+            android:id="@+id/logoBackground_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_option_logo_back_gournd" />
+
+        <ImageView
+            android:id="@+id/logoIcon_imageView"
+            android:layout_width="@dimen/option_logo_size"
+            android:layout_height="@dimen/option_logo_size"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_option_logo" />
+
+        <TextView
+            android:id="@+id/logoCompanyName_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logoIcon_imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/option_logo_company_name_color"
+            android:textSize="@dimen/option_logo_company_name_size" />
+
+        <TextView
+            android:id="@+id/userNickName_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logoCompanyName_textView"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/option_logo_company_name_color"
+            android:textSize="@dimen/option_logo_company_name_size" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/logo_layout" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <!-- 新版本检测 -->
+
+            <LinearLayout
+                android:id="@+id/checkUpdate_layout"
+                android:layout_width="@dimen/option_item_width"
+                android:layout_height="@dimen/option_item_height"
+                android:layout_marginBottom="@dimen/option_margin_bottom"
+                android:layout_marginTop="@dimen/option_margin_bottom"
+                android:background="@drawable/selector_option_item_layout_bg"
+                android:clickable="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="新版本检测"
+                    android:textColor="@color/option_item_text_color" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_option_item_image" />
+            </LinearLayout>
+
+            <!-- 使用帮助 -->
+
+            <LinearLayout
+                android:id="@+id/help_layout"
+                android:layout_width="@dimen/option_item_width"
+                android:layout_height="@dimen/option_item_height"
+                android:layout_marginBottom="@dimen/option_margin_bottom"
+                android:background="@drawable/selector_option_item_layout_bg"
+                android:clickable="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="使用帮助"
+                    android:textColor="@color/option_item_text_color" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_option_item_image" />
+            </LinearLayout>
+
+            <!-- 清除缓存 -->
+
+            <LinearLayout
+                android:id="@+id/clearCach_layout"
+                android:layout_width="@dimen/option_item_width"
+                android:layout_height="@dimen/option_item_height"
+                android:layout_marginBottom="@dimen/option_margin_bottom"
+                android:background="@drawable/selector_option_item_layout_bg"
+                android:clickable="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/clearCach_textView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="清除缓存"
+                    android:textColor="@color/option_item_text_color" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_option_item_image" />
+            </LinearLayout>
+
+            <!-- 关于 -->
+
+            <LinearLayout
+                android:id="@+id/about_layout"
+                android:layout_width="@dimen/option_item_width"
+                android:layout_height="@dimen/option_item_height"
+                android:layout_marginBottom="@dimen/option_margin_bottom"
+                android:background="@drawable/selector_option_item_layout_bg"
+                android:clickable="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="关于"
+                    android:textColor="@color/option_item_text_color" />
+
+                <TextView
+                    android:id="@+id/aboutButtonVersion_textView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="0dp"
+                    android:singleLine="true"
+                    android:textColor="@color/option_item_text_color" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_option_item_image" />
+            </LinearLayout>
+
+            <!-- 退出登录按钮 -->
+
+            <Button
+                android:id="@+id/quit_button"
+                android:layout_width="@dimen/option_item_width"
+                android:layout_height="@dimen/option_item_height"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/selector_option_quit_button_bg"
+                android:gravity="center"
+                android:text="退出登录"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- 关于界面 -->
+
+    <RelativeLayout
+        android:id="@+id/aboutPage_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/option_titleBar_layout"
+        android:background="@color/white"
+        android:clickable="true"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/aboutLogo_imageView"
+            android:layout_width="@dimen/option_logo_size"
+            android:layout_height="@dimen/option_logo_size"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="@dimen/option_aboutLogo_marginTop"
+            android:src="@drawable/bg_option_about_logo" />
+
+        <TextView
+            android:id="@+id/aboutCompanyName_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aboutLogo_imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:text="@string/option_companyName"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/option_aboutText_size" />
+
+        <TextView
+            android:id="@+id/aboutPageVersion_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aboutCompanyName_textView"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/option_aboutText_size" />
+
+        <TextView
+            android:id="@+id/prodectMessage_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="@string/option_prodectMessage"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/option_aboutText_size" />
+    </RelativeLayout>
+
+</RelativeLayout>
