@@ -64,6 +64,10 @@
             android:name="cn.retech.activity.BookStoreActivity"
             android:configChanges="orientation"
             android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="cn.retech.activity.RichTextReaderActivity"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
 
         <service android:name="cn.retech.activity.UpdateSoftwareService" />
     </application>

@@ -127,7 +127,10 @@ public class OptionActivity extends Activity {
 					return;
 				}
 
-				checkSoftwareUpdate();
+				Intent intent = new Intent(OptionActivity.this, RichTextReaderActivity.class);
+				startActivity(intent);
+
+				// checkSoftwareUpdate();
 			}
 		});
 
@@ -182,26 +185,27 @@ public class OptionActivity extends Activity {
 				aboutPageLayout.setAlpha(0f);
 				backButton.setClickable(false);
 
-				AnimatorDirector.animate(new AnimatorBuilder().view(aboutPageLayout).alpha(1.0f).setDuration(900).setListener(new AnimatorListener() {
-					@Override
-					public void onAnimationStart(Animator animation) {
-					}
+				AnimatorDirector.animate(new AnimatorBuilder().view(aboutPageLayout).alpha(1.0f).setDuration(900)
+						.setListener(new AnimatorListener() {
+							@Override
+							public void onAnimationStart(Animator animation) {
+							}
 
-					@Override
-					public void onAnimationRepeat(Animator animation) {
-					}
+							@Override
+							public void onAnimationRepeat(Animator animation) {
+							}
 
-					@Override
-					public void onAnimationEnd(Animator animation) {
-						titleText.setText("关于");
-						backButton.setText("退回");
-						backButton.setOnClickListener(quitAboutContentClickListener);
-					}
+							@Override
+							public void onAnimationEnd(Animator animation) {
+								titleText.setText("关于");
+								backButton.setText("退回");
+								backButton.setOnClickListener(quitAboutContentClickListener);
+							}
 
-					@Override
-					public void onAnimationCancel(Animator animation) {
-					}
-				}));
+							@Override
+							public void onAnimationCancel(Animator animation) {
+							}
+						}));
 			}
 		});
 

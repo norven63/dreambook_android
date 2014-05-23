@@ -117,7 +117,7 @@
                     android:layout_weight="5"
                     android:gravity="left|center_vertical"
                     android:paddingLeft="10dp"
-                    android:text="新版本检测"
+                    android:text="播放流式阅读"
                     android:textColor="@color/option_item_text_color" />
 
                 <ImageView
