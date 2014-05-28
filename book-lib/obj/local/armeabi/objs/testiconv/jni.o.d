@@ -1,194 +1,194 @@
-E:/DreamBook/book-lib//obj/local/armeabi/objs/testiconv/jni.o: \
- E:/DreamBook/book-lib//jni/jni.cpp \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/jni.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/cdefs.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/cdefs_elf.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/android/api-level.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stdarg.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cprolog.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/features.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_stlport_version.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/user_config.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/compat.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/host.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/_system.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/_android.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/_gcc.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/stl_confix.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/_native_headers.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_epilog.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/android/bitmap.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/stdint.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stddef.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/_types.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/machine/_types.h \
+D:/workspace/dreambook_android/book-lib//obj/local/armeabi/objs/testiconv/jni.o: \
+ D:/workspace/dreambook_android/book-lib//jni/jni.cpp \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/jni.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/cdefs.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/cdefs_elf.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/android/api-level.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stdarg.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cprolog.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/features.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_stlport_version.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/user_config.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/compat.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/host.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/_system.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/_android.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/_gcc.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/stl_confix.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/_native_headers.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_epilog.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/android/bitmap.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/stdint.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stddef.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/_types.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/machine/_types.h \
  engine/incEngine.h mylib/incMyLib.h mylib/./mfc/incMFC.h \
  mylib/./mfc/Platform.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/alloca.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/time64.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/time.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/time.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/time.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/types.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/posix_types.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/stddef.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/compiler.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/posix_types.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/types.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/types.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/machine/kernel.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/sysmacros.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/time.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/siginfo.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm-generic/siginfo.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/cstddef \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_prolog.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/debug/_debug.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cstddef.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/string \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_alloc.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cstdlib.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stdlib.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/stdlib.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/string.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/string.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/malloc.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/strings.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/memory.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cmath.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/math.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/math.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/limits.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/limits.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/limits.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/limits.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/machine/internal_types.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/machine/limits.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/syslimits.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/page.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cstring.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/using/cstring \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_algobase.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/climits \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_pair.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/type_traits.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/type_manips.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_move_construct_fwk.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_iterator_base.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ptrs_specialize.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_algobase.c \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_function_base.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_iterator.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_new.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/../../gabi++/include/new \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/exception \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/../../gabi++/include/exception \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/../../gabi++/include/gabixx_config.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cstdio.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stdio.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/stdio.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_construct.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_alloc.c \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_fwd.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_iosfwd.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/char_traits.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cwchar.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/../../gabi++/include/cstddef \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/wchar.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/_wchar_limits.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_mbstate_t.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_uninitialized.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_base.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_npos.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_operators.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string.c \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ctraits_fns.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_function.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_function_adaptors.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_range_errors.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_hash.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_hash_fun.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_io.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ostream.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ios.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ios_base.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_stdexcept_base.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_exception.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_locale.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_threads.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/pthread.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/pthread.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/signal.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/signal.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/signal.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm-generic/signal.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/sigcontext.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sched.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_threads.c \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ctime.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_facets_fwd.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ctype.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/c_locale.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_numpunct.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ios.c \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_streambuf.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_streambuf.c \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ostreambuf_iterator.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ostream.c \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_num_put.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_iostream_string.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_num_put.c \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_limits.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/cfloat \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/float.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_limits.c \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_istream.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_istreambuf_iterator.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_istream.c \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_num_get.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_num_get.c \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_io.c \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/vector \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_vector.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_vector.c \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_bvector.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_relops_cont.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/map \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_map.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_tree.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_tree.c \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/assert.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/assert.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/memory \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_tempbuf.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_tempbuf.c \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_raw_storage_iter.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_auto_ptr.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/ctype.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/ctype.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/alloca.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/time64.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/time.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/time.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/time.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/types.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/posix_types.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/stddef.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/compiler.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/posix_types.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/types.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/types.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/machine/kernel.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/sysmacros.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/time.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/siginfo.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm-generic/siginfo.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/cstddef \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_prolog.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/debug/_debug.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cstddef.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/string \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_alloc.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cstdlib.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stdlib.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/stdlib.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/string.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/string.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/malloc.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/strings.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/memory.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cmath.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/math.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/math.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/limits.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/limits.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/limits.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/limits.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/machine/internal_types.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/machine/limits.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/syslimits.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/page.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cstring.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/using/cstring \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_algobase.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/climits \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_pair.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/type_traits.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/type_manips.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_move_construct_fwk.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_iterator_base.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ptrs_specialize.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_algobase.c \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_function_base.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_iterator.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_new.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/../../gabi++/include/new \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/exception \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/../../gabi++/include/exception \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/../../gabi++/include/gabixx_config.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cstdio.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stdio.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/stdio.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_construct.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_alloc.c \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_fwd.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_iosfwd.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/char_traits.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cwchar.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/../../gabi++/include/cstddef \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/wchar.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/_wchar_limits.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_mbstate_t.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_uninitialized.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_base.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_npos.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_operators.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string.c \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ctraits_fns.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_function.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_function_adaptors.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_range_errors.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_hash.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_hash_fun.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_io.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ostream.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ios.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ios_base.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_stdexcept_base.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_exception.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_locale.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_threads.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/pthread.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/pthread.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/signal.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/signal.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/signal.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm-generic/signal.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/sigcontext.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sched.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_threads.c \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ctime.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_facets_fwd.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ctype.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/c_locale.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_numpunct.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ios.c \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_streambuf.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_streambuf.c \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ostreambuf_iterator.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ostream.c \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_num_put.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_iostream_string.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_num_put.c \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_limits.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/cfloat \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/float.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_limits.c \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_istream.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_istreambuf_iterator.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_istream.c \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_num_get.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_num_get.c \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_io.c \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/vector \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_vector.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_vector.c \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_bvector.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_relops_cont.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/map \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_map.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_tree.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_tree.c \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/assert.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/assert.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/memory \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_tempbuf.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_tempbuf.c \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_raw_storage_iter.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_auto_ptr.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/ctype.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/ctype.h \
  mylib/./mfc/winuse.h mylib/./mfc/mBaseType.h mylib/./mfc/cstring.h \
  mylib/./mfc/cfunc.h mylib/./mfc/mSync.h mylib/./mfc/mFile.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/streambuf \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ioserr.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/streambuf \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ioserr.h \
  mylib/./mfc/mCollection.h mylib/./mfc/mArchive.h mylib/./mfc/mCore.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/algorithm \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_algo.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_heap.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_heap.c \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_algo.c \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/algorithm \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_algo.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_heap.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_heap.c \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_algo.c \
  mylib/./mfc/mFunc.h mylib/./mfc/mIni.h mylib/./mfc/mBmp.h \
  mylib/./mfc/mMsg.h mylib/./mfc/mWin.h mylib/./mfc/UTF.h \
  mylib/./mfc/endianDef.h mylib/./mfc/Socket.h mylib/./mfc/winShell.h \
  mylib/./mfc/mCharset.h mylib/./mfc/iconv.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/errno.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/errno.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/errno.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/errno.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm-generic/errno.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm-generic/errno-base.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/wchar.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/errno.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/errno.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/errno.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/errno.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm-generic/errno.h \
+ D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm-generic/errno-base.h \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/wchar.h \
  mylib/./mfc/ZipUtil.h mylib/./img/incImg.h mylib/./img/imgdecoder.h \
  mylib/./img/platform/audio.h mylib/./img/platform/video.h \
  mylib/./agg/incAgg.h mylib/./agg/agg_dc.h mylib/./agg/agg_graph_text.h \
@@ -299,55 +299,55 @@ E:/DreamBook/book-lib//obj/local/armeabi/objs/testiconv/jni.o: \
  mylib/./agg/agg_brush.h mylib/./agg/agg_screen.h \
  mylib/./agg/agg_richtext.h mylib/./agg/agg_resmgr.h engine/TxtEngine.h \
  engine/RichTextLayout.h \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/set \
- D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_set.h \
- E:/DreamBook/book-lib//jni/engine/cn_retech_rich_text_reader_BookReaderJni.h
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/set \
+ D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_set.h \
+ D:/workspace/dreambook_android/book-lib//jni/engine/cn_retech_rich_text_reader_BookReaderJni.h
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/jni.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/jni.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/cdefs.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/cdefs.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/cdefs_elf.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/cdefs_elf.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/android/api-level.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/android/api-level.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stdarg.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stdarg.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cprolog.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cprolog.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/features.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/features.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_stlport_version.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_stlport_version.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/user_config.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/user_config.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/compat.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/compat.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/host.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/host.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/_system.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/_system.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/_android.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/_android.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/_gcc.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/_gcc.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/stl_confix.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/stl_confix.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/_native_headers.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/config/_native_headers.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_epilog.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_epilog.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_config_compat_post.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/android/bitmap.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/android/bitmap.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/stdint.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/stdint.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stddef.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stddef.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/_types.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/_types.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/machine/_types.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/machine/_types.h:
 
 engine/incEngine.h:
 
@@ -357,291 +357,291 @@ mylib/./mfc/incMFC.h:
 
 mylib/./mfc/Platform.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/alloca.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/alloca.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/time64.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/time64.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/time.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/time.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/time.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/time.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/time.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/time.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/types.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/types.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/posix_types.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/posix_types.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/stddef.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/stddef.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/compiler.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/compiler.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/posix_types.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/posix_types.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/types.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/types.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/types.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/types.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/machine/kernel.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/machine/kernel.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/sysmacros.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/sysmacros.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/time.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/time.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/siginfo.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/siginfo.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm-generic/siginfo.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm-generic/siginfo.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/cstddef:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/cstddef:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_prolog.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_prolog.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/debug/_debug.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/debug/_debug.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cstddef.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cstddef.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/string:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/string:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_alloc.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_alloc.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cstdlib.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cstdlib.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stdlib.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stdlib.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/stdlib.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/stdlib.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/string.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/string.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/string.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/string.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/malloc.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/malloc.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/strings.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/strings.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/memory.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/memory.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cmath.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cmath.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/math.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/math.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/math.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/math.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/limits.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/limits.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/limits.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/limits.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/limits.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/limits.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/limits.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/limits.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/machine/internal_types.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/machine/internal_types.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/machine/limits.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/machine/limits.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/syslimits.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/syslimits.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/page.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/page.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cstring.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cstring.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/using/cstring:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/using/cstring:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_algobase.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_algobase.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/climits:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/climits:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_pair.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_pair.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/type_traits.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/type_traits.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/type_manips.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/type_manips.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_move_construct_fwk.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_move_construct_fwk.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_iterator_base.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_iterator_base.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ptrs_specialize.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ptrs_specialize.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_algobase.c:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_algobase.c:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_function_base.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_function_base.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_iterator.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_iterator.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_new.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_new.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/../../gabi++/include/new:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/../../gabi++/include/new:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/exception:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/exception:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/../../gabi++/include/exception:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/../../gabi++/include/exception:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/../../gabi++/include/gabixx_config.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/../../gabi++/include/gabixx_config.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cstdio.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cstdio.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stdio.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stdio.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/stdio.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/stdio.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_construct.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_construct.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_alloc.c:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_alloc.c:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_fwd.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_fwd.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_iosfwd.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_iosfwd.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/char_traits.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/char_traits.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cwchar.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_cwchar.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/../../gabi++/include/cstddef:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/../../gabi++/include/cstddef:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/wchar.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/wchar.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/_wchar_limits.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sys/_wchar_limits.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_mbstate_t.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_mbstate_t.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_uninitialized.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_uninitialized.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_base.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_base.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_npos.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_npos.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_operators.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_operators.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string.c:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string.c:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ctraits_fns.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ctraits_fns.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_function.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_function.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_function_adaptors.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_function_adaptors.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_range_errors.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_range_errors.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_hash.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_hash.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_hash_fun.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_hash_fun.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_io.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_io.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ostream.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ostream.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ios.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ios.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ios_base.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ios_base.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_stdexcept_base.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_stdexcept_base.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_exception.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_exception.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_locale.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_locale.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_threads.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_threads.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/pthread.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/pthread.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/pthread.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/pthread.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/signal.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/signal.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/signal.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/signal.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/signal.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/signal.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm-generic/signal.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm-generic/signal.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/sigcontext.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/sigcontext.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sched.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/sched.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_threads.c:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_threads.c:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ctime.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ctime.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_facets_fwd.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_facets_fwd.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ctype.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ctype.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/c_locale.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/c_locale.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_numpunct.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_numpunct.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ios.c:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ios.c:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_streambuf.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_streambuf.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_streambuf.c:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_streambuf.c:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ostreambuf_iterator.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ostreambuf_iterator.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ostream.c:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ostream.c:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_num_put.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_num_put.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_iostream_string.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_iostream_string.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_num_put.c:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_num_put.c:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_limits.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_limits.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/cfloat:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/cfloat:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/float.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/float.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_limits.c:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_limits.c:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_istream.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_istream.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_istreambuf_iterator.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_istreambuf_iterator.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_istream.c:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_istream.c:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_num_get.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_num_get.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_num_get.c:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_num_get.c:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_io.c:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_string_io.c:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/vector:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/vector:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_vector.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_vector.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_vector.c:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_vector.c:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_bvector.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_bvector.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_relops_cont.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_relops_cont.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/map:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/map:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_map.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_map.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_tree.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_tree.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_tree.c:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_tree.c:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/assert.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/assert.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/assert.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/assert.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/memory:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/memory:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_tempbuf.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_tempbuf.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_tempbuf.c:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_tempbuf.c:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_raw_storage_iter.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_raw_storage_iter.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_auto_ptr.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_auto_ptr.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/ctype.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/ctype.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/ctype.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/ctype.h:
 
 mylib/./mfc/winuse.h:
 
@@ -655,9 +655,9 @@ mylib/./mfc/mSync.h:
 
 mylib/./mfc/mFile.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/streambuf:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/streambuf:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ioserr.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_ioserr.h:
 
 mylib/./mfc/mCollection.h:
 
@@ -665,15 +665,15 @@ mylib/./mfc/mArchive.h:
 
 mylib/./mfc/mCore.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/algorithm:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/algorithm:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_algo.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_algo.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_heap.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_heap.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_heap.c:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_heap.c:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_algo.c:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_algo.c:
 
 mylib/./mfc/mFunc.h:
 
@@ -697,19 +697,19 @@ mylib/./mfc/mCharset.h:
 
 mylib/./mfc/iconv.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/errno.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/errno.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/errno.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/../include/errno.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/errno.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/linux/errno.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/errno.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm/errno.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm-generic/errno.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm-generic/errno.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm-generic/errno-base.h:
+D:/android-ndk-r9d/platforms/android-8/arch-arm/usr/include/asm-generic/errno-base.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/wchar.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/wchar.h:
 
 mylib/./mfc/ZipUtil.h:
 
@@ -1009,8 +1009,8 @@ engine/TxtEngine.h:
 
 engine/RichTextLayout.h:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/set:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/set:
 
-D:/android-ndk-r9d-windows-x86_64/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_set.h:
+D:/android-ndk-r9d/sources/cxx-stl/stlport/stlport/stl/_set.h:
 
-E:/DreamBook/book-lib//jni/engine/cn_retech_rich_text_reader_BookReaderJni.h:
+D:/workspace/dreambook_android/book-lib//jni/engine/cn_retech_rich_text_reader_BookReaderJni.h:
