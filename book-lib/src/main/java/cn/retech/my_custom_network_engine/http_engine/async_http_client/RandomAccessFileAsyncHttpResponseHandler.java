@@ -12,6 +12,9 @@ import org.apache.http.client.HttpResponseException;
 
 import com.loopj.android.http.FileAsyncHttpResponseHandler;
 
+/**
+ * 能够实现断点续传
+ */
 public class RandomAccessFileAsyncHttpResponseHandler extends FileAsyncHttpResponseHandler {
 
 	private final long seekPos;
@@ -22,8 +25,12 @@ public class RandomAccessFileAsyncHttpResponseHandler extends FileAsyncHttpRespo
 		this.seekPos = seekPos;
 	}
 
+	/**
+	 * 保存文件
+	 */
 	private byte[] getMyResponseData(HttpEntity entity) throws IOException {
 		if (entity != null) {
+			// 断点续传做准备,seekPos即为上一次传输的断点
 			RandomAccessFile randomAccessFile = new RandomAccessFile(getTargetFile(), "rwd");
 			randomAccessFile.seek(seekPos);
 			InputStream instream = entity.getContent();
