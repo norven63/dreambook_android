@@ -179,27 +179,27 @@ public class BookContentView extends ImageView {
 			}
 
 			switch (event.getAction()) {
-			case MotionEvent.ACTION_DOWN:
-				if (!operateBookListener.onDown(event.getX(), event.getY())) {
-					isSelectingSentence = false;
-					operateBookListener.removeBookmark();
-				}
+				case MotionEvent.ACTION_DOWN:
+					if (!operateBookListener.onDown(event.getX(), event.getY())) {
+						isSelectingSentence = false;
+						operateBookListener.removeBookmark();
+					}
 
-				break;
-			case MotionEvent.ACTION_UP:
-				operateBookListener.onUp(event.getX(), event.getY());
+					break;
+				case MotionEvent.ACTION_UP:
+					operateBookListener.onUp(event.getX(), event.getY());
 
-				hasUpOrMove = true;
-
-				break;
-			case MotionEvent.ACTION_MOVE:
-				operateBookListener.onMove(event.getX(), event.getY());
-
-				if (!hasUpOrMove && Math.abs(event.getX() - startX) > 10f || Math.abs(event.getY() - startY) > 10f) {
 					hasUpOrMove = true;
-				}
 
-				break;
+					break;
+				case MotionEvent.ACTION_MOVE:
+					operateBookListener.onMove(event.getX(), event.getY());
+
+					if (!hasUpOrMove && Math.abs(event.getX() - startX) > 10f || Math.abs(event.getY() - startY) > 10f) {
+						hasUpOrMove = true;
+					}
+
+					break;
 			}
 		} while (false);
 
