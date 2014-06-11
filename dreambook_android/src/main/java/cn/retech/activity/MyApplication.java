@@ -50,6 +50,7 @@ public class MyApplication extends Application {
 	public void onCreate() {
 
 		DebugLog.i(TAG, "onCreate");
+
 		super.onCreate();
 
 		// 必须在第一个行的位置
@@ -58,25 +59,34 @@ public class MyApplication extends Application {
 		GlobalDataCacheForMemorySingleton.getInstance.setApplication(self);
 		// 创建本地缓存目录
 		LocalCacheDataPathConstant.createLocalCacheDirectories();
-		// 配置ImageLoader
+
+		// 配置ImageLoader============start============
 		DisplayImageOptions optionsOfDisplayImageOptions = new DisplayImageOptions.Builder().cacheInMemory(true) // default
-				.cacheOnDisc(true) // default
-				.build();
+				// default
+				.cacheOnDisc(true).build();
 		File cacheDirForImageLoader = LocalCacheDataPathConstant.thumbnailCachePathInDevice();
-		ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(getApplicationContext()).memoryCacheExtraOptions(480, 800)
-				.discCacheExtraOptions(480, 800, CompressFormat.JPEG, 75, null).threadPoolSize(1)
+		ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(getApplicationContext())
+				.memoryCacheExtraOptions(480, 800)
+				.discCacheExtraOptions(480, 800, CompressFormat.JPEG, 75, null)
+				.threadPoolSize(1)
 				// default
 				.threadPriority(Thread.NORM_PRIORITY - 1)
 				// default
 				.tasksProcessingOrder(QueueProcessingType.FIFO)
 				// default
-				.denyCacheImageMultipleSizesInMemory().memoryCache(new LruMemoryCache(2 * 1024 * 1024)).memoryCacheSize(2 * 1024 * 1024)
-				.memoryCacheSizePercentage(13) // default
-				.discCache(new UnlimitedDiscCache(cacheDirForImageLoader)) // default
-				.discCacheSize(50 * 1024 * 1024).discCacheFileCount(100).discCacheFileNameGenerator(new HashCodeFileNameGenerator()) // default
-				.defaultDisplayImageOptions(optionsOfDisplayImageOptions) // default
-				.writeDebugLogs().imageDownloader(new MyImageDownloader(getApplicationContext())).build();
+				.denyCacheImageMultipleSizesInMemory().memoryCache(new LruMemoryCache(2 * 1024 * 1024))
+				.memoryCacheSize(2 * 1024 * 1024).memoryCacheSizePercentage(13)
+				// default
+				.discCache(new UnlimitedDiscCache(cacheDirForImageLoader))
+				// default
+				.discCacheSize(50 * 1024 * 1024).discCacheFileCount(100)
+				// default
+				.discCacheFileNameGenerator(new HashCodeFileNameGenerator())
+				// default
+				.defaultDisplayImageOptions(optionsOfDisplayImageOptions).writeDebugLogs()
+				.imageDownloader(new MyImageDownloader(getApplicationContext())).build();
 		ImageLoader.getInstance().init(config);
+		// 配置ImageLoader============end============
 
 		// 读取本地缓存的重要数据
 		GlobalDataCacheForNeedSaveToFileSystem.readAllCacheData();
@@ -87,7 +97,7 @@ public class MyApplication extends Application {
 
 		CircleProgressObservable.INSTANCE.start();
 
-		// 流式阅读环境初始化
+		// 流式阅读环境初始化===========start===========
 		int screenWidth = getResources().getDisplayMetrics().widthPixels;
 		int screenHeight = getResources().getDisplayMetrics().heightPixels;
 
@@ -96,6 +106,7 @@ public class MyApplication extends Application {
 		int screenDensityDPI = dm.densityDpi;
 
 		BookReader.getInstance.initProperty(screenWidth, screenHeight, screenDensityDPI);
+		// 流式阅读环境初始化===========end=============
 	}
 
 	@Override
