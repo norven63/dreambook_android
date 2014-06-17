@@ -67,7 +67,7 @@ public class MyApplication extends Application {
 		File cacheDirForImageLoader = LocalCacheDataPathConstant.thumbnailCachePathInDevice();
 		ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(getApplicationContext())
 				.memoryCacheExtraOptions(480, 800)
-				.discCacheExtraOptions(480, 800, CompressFormat.JPEG, 75, null)
+				.discCacheExtraOptions(480, 800, CompressFormat.PNG, 75, null)
 				.threadPoolSize(1)
 				// default
 				.threadPriority(Thread.NORM_PRIORITY - 1)
