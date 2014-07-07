@@ -61,9 +61,17 @@ public class MyApplication extends Application {
 		LocalCacheDataPathConstant.createLocalCacheDirectories();
 
 		// 配置ImageLoader============start============
-		DisplayImageOptions optionsOfDisplayImageOptions = new DisplayImageOptions.Builder().cacheInMemory(true) // default
-				// default
-				.cacheOnDisc(true).build();
+		DisplayImageOptions optionsOfDisplayImageOptions = new DisplayImageOptions.Builder()
+		// 允许内存缓存
+				.cacheInMemory(true)
+				// 允许硬盘缓存
+				.cacheOnDisc(true)
+				// 加载时显示的图
+				// .showImageOnLoading(R.drawable.loading_image)
+				// 加载失败显示的图
+				// .showImageForEmptyUri(R.drawable.image_for_empty_url)
+				// 构建
+				.build();
 		File cacheDirForImageLoader = LocalCacheDataPathConstant.thumbnailCachePathInDevice();
 		ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(getApplicationContext())
 				.memoryCacheExtraOptions(480, 800)
@@ -74,8 +82,8 @@ public class MyApplication extends Application {
 				// default
 				.tasksProcessingOrder(QueueProcessingType.FIFO)
 				// default
-				.denyCacheImageMultipleSizesInMemory().memoryCache(new LruMemoryCache(2 * 1024 * 1024))
-				.memoryCacheSize(2 * 1024 * 1024).memoryCacheSizePercentage(13)
+				.denyCacheImageMultipleSizesInMemory().memoryCache(new LruMemoryCache(2 * 1024 * 1024)).memoryCacheSize(2 * 1024 * 1024)
+				.memoryCacheSizePercentage(13)
 				// default
 				.discCache(new UnlimitedDiscCache(cacheDirForImageLoader))
 				// default
