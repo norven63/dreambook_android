@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.RandomAccessFile;
 
+import org.apache.http.Header;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.StatusLine;
@@ -72,5 +73,17 @@ public class RandomAccessFileAsyncHttpResponseHandler extends FileAsyncHttpRespo
 				}
 			}
 		}
+	}
+
+	@Override
+	public void onFailure(int statusCode, Header[] headers, Throwable throwable, File file) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void onSuccess(int statusCode, Header[] headers, File file) {
+		// TODO Auto-generated method stub
+
 	}
 }

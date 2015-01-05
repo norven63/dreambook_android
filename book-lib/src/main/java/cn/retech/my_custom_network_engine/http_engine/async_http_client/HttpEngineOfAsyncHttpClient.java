@@ -113,8 +113,8 @@ public class HttpEngineOfAsyncHttpClient implements IHttpRequestForDomainBean, I
 				}
 
 				@Override
-				public void onFailure(int statusCode, Header[] headers, byte[] errorResponse, Throwable e) {
-					fileRequestAsyncHttpResponseListener.onFailure(statusCode, e);
+				public void onFailure(int statusCode, Header[] headers, Throwable throwable, File file) {
+					fileRequestAsyncHttpResponseListener.onFailure(statusCode, throwable);
 				}
 
 				@Override

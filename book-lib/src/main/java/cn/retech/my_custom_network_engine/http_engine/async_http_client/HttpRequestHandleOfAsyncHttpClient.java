@@ -1,5 +1,7 @@
 package cn.retech.my_custom_network_engine.http_engine.async_http_client;
 
+import org.apache.http.Header;
+
 import cn.retech.my_network_engine.INetRequestHandle;
 import cn.retech.my_network_engine.http_engine.INetRequestIsCancelled;
 
@@ -50,4 +52,16 @@ public class HttpRequestHandleOfAsyncHttpClient extends AsyncHttpResponseHandler
   public boolean isCancelled() {
     return requestHandle.isCancelled();
   }
+
+	@Override
+	public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
+		// TODO Auto-generated method stub
+
+	}
 }
