@@ -4,7 +4,6 @@ import java.io.File;
 
 import android.app.Application;
 import android.content.res.Configuration;
-import android.graphics.Bitmap.CompressFormat;
 import android.util.DisplayMetrics;
 import cn.retech.custom_control.CircleProgressObservable;
 import cn.retech.global_data_cache.GlobalDataCacheForMemorySingleton;
@@ -15,13 +14,15 @@ import cn.retech.rich_text_reader.BookReader;
 import cn.retech.toolutils.DebugLog;
 import cn.retech.toolutils.ToolsFunctionForThisProgect;
 
-import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiscCache;
+import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiskCache;
 import com.nostra13.universalimageloader.cache.disc.naming.HashCodeFileNameGenerator;
 import com.nostra13.universalimageloader.cache.memory.impl.LruMemoryCache;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
+import com.nostra13.universalimageloader.core.decode.BaseImageDecoder;
+import com.nostra13.universalimageloader.utils.StorageUtils;
 
 // 在Android中启用断言的方法： adb shell setprop debug.assert 1
 // mac系统配置 adb
@@ -61,38 +62,26 @@ public class MyApplication extends Application {
 		LocalCacheDataPathConstant.createLocalCacheDirectories();
 
 		// 配置ImageLoader============start============
-		DisplayImageOptions optionsOfDisplayImageOptions = new DisplayImageOptions.Builder()
-		// 允许内存缓存
-				.cacheInMemory(true)
-				// 允许硬盘缓存
-				.cacheOnDisc(true)
-				// 加载时显示的图
-				// .showImageOnLoading(R.drawable.loading_image)
-				// 加载失败显示的图
-				// .showImageForEmptyUri(R.drawable.image_for_empty_url)
-				// 构建
-				.build();
-		File cacheDirForImageLoader = LocalCacheDataPathConstant.thumbnailCachePathInDevice();
-		ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(getApplicationContext())
-				.memoryCacheExtraOptions(480, 800)
-				.discCacheExtraOptions(480, 800, CompressFormat.PNG, 75, null)
-				.threadPoolSize(1)
-				// default
-				.threadPriority(Thread.NORM_PRIORITY - 1)
-				// default
-				.tasksProcessingOrder(QueueProcessingType.FIFO)
-				// default
-				.denyCacheImageMultipleSizesInMemory().memoryCache(new LruMemoryCache(2 * 1024 * 1024)).memoryCacheSize(2 * 1024 * 1024)
-				.memoryCacheSizePercentage(13)
-				// default
-				.discCache(new UnlimitedDiscCache(cacheDirForImageLoader))
-				// default
-				.discCacheSize(50 * 1024 * 1024).discCacheFileCount(100)
-				// default
-				.discCacheFileNameGenerator(new HashCodeFileNameGenerator())
-				// default
-				.defaultDisplayImageOptions(optionsOfDisplayImageOptions).writeDebugLogs()
-				.imageDownloader(new MyImageDownloader(getApplicationContext())).build();
+		/*
+		 * 配置ImageLoader
+		 */
+		File cacheDir = StorageUtils.getCacheDirectory(this);
+		ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(this).memoryCacheExtraOptions(480, 800) // default
+																																																																				// =
+																																																																				// device
+																																																																				// screen
+																																																																				// dimensions
+				.diskCacheExtraOptions(480, 800, null).threadPoolSize(3) // default
+				.threadPriority(Thread.NORM_PRIORITY - 2) // default
+				.tasksProcessingOrder(QueueProcessingType.FIFO) // default
+				.denyCacheImageMultipleSizesInMemory().memoryCache(new LruMemoryCache(2 * 1024 * 1024)).memoryCacheSize(2 * 1024 * 1024).memoryCacheSizePercentage(13) // default
+				.diskCache(new UnlimitedDiskCache(cacheDir)) // default
+				.diskCacheSize(50 * 1024 * 1024).diskCacheFileCount(100).diskCacheFileNameGenerator(new HashCodeFileNameGenerator()) // default
+				.imageDownloader(new MyImageDownloader(this)) // default
+				.imageDecoder(new BaseImageDecoder(true)) // default
+				.defaultDisplayImageOptions(DisplayImageOptions.createSimple()) // default
+				.writeDebugLogs().build();
+
 		ImageLoader.getInstance().init(config);
 		// 配置ImageLoader============end============
 
